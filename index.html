@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" >
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">services</a> </li>
+                    <li><a href="#portfolio">portfolio</a> </li>
+                    <li><a href="#contact">contact</a> </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="pcp">
+           <img class="brown" id="brown" src="Brown and Peach Illustrative Girl Laptop Tote Bag.jpg">
+            <div class="header-text">
+                <p>IT student , specialized in networks and operating systems</p>
+                <h1>Hi , I'm <span>Hadeel</span><br> from Syria</h1>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">  <img src="pink.png"></div>
+              
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am 22 years old
+                        Studying at faculity of Informatics Engineering  at Tishreen university , fourth year 
+                         specialized in computer networks
+                        member of Tamkeen team for sustainable development , Active center
+                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills' )">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Participate in community activities </li>
+                            <li> Web design </li>
+                            <li>Graphic design</li>
+                            <li>FrontEnd and BackEnd developmen </li>
+                            <li>Graphic design</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Coach at Active center</li>
+                            <li>Has a diploma in public relations</li>
+                            <li>Holds a TOT certificate accredited by the international center for humanitarian building</li>
+                            <li>Former backend intern with time company</li>
+                            <li>Studied and finished   courses in HTML , CSS </li>
+                            <li>Studied and finished  courses in C++ , python and java</li>
+                            <li>Can work on Photoshop , PowerPoint and Word</li>
+                        </ul>
+                       
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            Studying at faculity of Informatics Engineering  at Tishreen university , fifth year 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+    <div id="services">
+        <div id="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web designer</h2>
+                    <p class="servicesp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officiis id dolorem, blanditiis dicta quaerat architecto quo ea deleniti labore. Iure veritatis ad vero impedit facere at ab distinctio! Debitis?</p>
+                    <a class="ainservices" href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Backend developer (to be)</h2>
+                    <p class="servicesp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officiis id dolorem, blanditiis dicta quaerat architecto quo ea deleniti labore. Iure veritatis ad vero impedit facere at ab distinctio! Debitis?</p>
+                    <a class="ainservices" href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Coach</h2>
+                    <p class="servicesp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officiis id dolorem, blanditiis dicta quaerat architecto quo ea deleniti labore. Iure veritatis ad vero impedit facere at ab distinctio! Debitis?</p>
+                    <a class="ainservices" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="graphic design.jpg">
+                <div class="layer">
+                    <h3>Graphic design</h3>
+                    <p>i have an experience with graphic desig</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="course.jpg">
+                <div class="layer">
+                    <h3>Workshops</h3>
+                    <p>i provided workshops in the field of web and presentations</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="agree.jpg">
+                <div class="layer">
+                    <h3>Exhabition</h3>
+                    <p>i practicipated in many exhabitions at the college of agrecaltural Engineering</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <a her="#" class="btn">see more</a>
+    </div>
+</div>
+<!-- contact -->
+<footer>
+<div id="contact">
+    <div class="container">
+        <img  class="foot" src="Capturesmall.png">
+        
+                
+                
+                <div class="social-icons">
+                    <a href=""><img src="facebook-64.ico"></a>
+                    <a href=""><img src="instagram-xxl.png"></a>
+                    <a href=""><img src="linkedin-64.ico"></a>
+                </div>
+            </div>
+           
+       
+</div>
+</footer>
+
+<script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+         for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+         } 
+         for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+         }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+
+</body>
+</html>
